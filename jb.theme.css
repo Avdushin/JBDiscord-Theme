@@ -1,0 +1,73 @@
+/**
+ * @name Jet Brains
+ * @author A 
+ * @description A new look to discord
+ * @invite rtBQX5D3bD
+ * @version 0.1.0
+*/
+
+@import url("./betterdiscord/app.css");
+
+/* Settings */
+:root {
+  --version: "0.0.1";
+
+  /* Colors */
+  --main-color: #96C261;
+
+  /* Borders */
+  --avatar-radius: 18px;
+}
+
+/* Dark/Light vars */
+.theme-dark {
+  /* BGs */
+  --background-primary: #2B2B2B;
+  --background-secondary: #313335;
+  --background-secondary-alt: #3C3F41;
+  --background-secondary-alt-alt: #3C3C3D;
+  --background-tertiary: #313335;
+
+  --deprecated-store-bg: var(--background-primary);
+  --background-floating: var(--background-secondary);
+  --background-mobile-primary: var(--background-primary);
+  --activity-card-background: var(--background-secondary);
+  --input-background: var(--background-secondary);
+  --modal-background: var(--background-primary);
+
+  --colortransparency: #0003;
+
+  /* Cards */
+  --card: #242B2B;
+
+  /* Other stuff */
+  --textcolor: #fff;
+  --epicshadow1: #fff3;
+
+  /* Font */
+  --font-display: var(--font-primary) !important;
+}
+
+.theme-light {
+  /* BGs */
+  --background-primary: #fafafa;
+  --background-secondary: #f7f7f7;
+  --background-secondary-alt: #fff;
+  --background-secondary-alt-alt: #eee;
+  --background-tertiary: #fff;
+
+  --deprecated-store-bg: var(--background-primary);
+  --background-floating: var(--background-secondary);
+  --background-mobile-primary: var(--background-primary);
+  --activity-card-background: var(--background-secondary);
+  --modal-background: var(--background-primary);
+
+  --colortransparency: #0001;
+
+  /* Cards */
+  --card: #aaaaaa;
+
+  /* Other stuff */
+  --textcolor: #000;
+  --epicshadow1: #0003;
+}
